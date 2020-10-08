@@ -204,6 +204,7 @@ function showProduct() {
             let htmlClassic = ''
             let htmlPetite = ''
             arr.forEach(v => {
+                /* 根据不同的系列添加手表 */
                 if (regClassic.test(v.pname)) {
                     htmlClassic += `
             <div class="watch-demo" data-id="${v.pid}">
